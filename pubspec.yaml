@@ -1,6 +1,5 @@
-name: clima
+name: bitcoin_ticker
 description: A new Flutter application.
-
 version: 1.0.0+1
 
 environment:
@@ -11,22 +10,12 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  geolocator: ^7.1.0
   http: ^0.13.3
-  flutter_spinkit: "^4.1.2"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
+
   uses-material-design: true
-
-  assets:
-  - images/
-
-  fonts:
-  - family: Spartan MB
-    fonts:
-    - asset: fonts/SpartanMB-Black.otf
-      weight: 900
